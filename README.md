@@ -34,7 +34,7 @@ pip install numpy pandas tqdm matplotlib tabulate
 ## 2) Scripts Overview
 
 | Path | Purpose |
-|---|---|
+|:--|:--|
 | `src/dataset_prep_hf_beir.py` | Download BEIR/MS MARCO via HF Hub and produce the working subset and ID lists. |
 | `src/embed_multi.py` | Embed corpus and queries for three encoders in one run; writes normalized matrices. |
 | `src/exact_groundtruth_all.py` | Exact top-K neighbors using FAISS IndexFlatIP on GPU; produces ground truth for recall. |
