@@ -30,6 +30,7 @@ pip install --index-url https://download.pytorch.org/whl/cu121 \
 pip install faiss-gpu-cu12==1.7.4.post2 hnswlib==0.8.0 annoy==1.17.3
 pip install sentence-transformers==2.7.0 huggingface_hub==0.24.6 datasets==3.0.0
 pip install numpy pandas tqdm matplotlib tabulate
+```
 
 ## 2) Scripts Overview
 
